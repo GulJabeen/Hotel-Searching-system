@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wraper {
+	background-color: Black;
+	height: 1800px;
+	width: 1150px;
+	margin-right: 150px;
+	margin-left: 90px;
+}
+#wraper #header {
+	background-color: White;
+	height: 80px;
+	width: 1150px;
+	color:Olive;
+	font-size:46px;
+	text-align:center;
+}
+#wraper #content {
+	background-color: Olive;
+	height: 1650px;
+	width: 1150px;
+}
+#wraper #footer {
+	background-color: Olive;
+	opacity:0.8;
+	text-align:center;
+	color:White;
+	font-size:36px;
+	height: 70px;
+	width: 1150px;
+}
+#wraper #content #aboutus {
+	background-color: Olive;
+	height: 275px;
+	width: 1150px;
+}
+#wraper #content #Kami {
+	background-color: White;
+	height: 275px;
+	width: 1150px;
+}
+#wraper #content #Abdullah {
+	background-color: Olive;
+	height: 275px;
+	width: 1150px;
+}
+#wraper #content #Abdul {
+	background-color: White;
+	height: 275px;
+	width: 1150px;
+}
+#wraper #content #Khalid {
+	background-color: Olive;
+	height: 275px;
+	width: 1150px;
+}
+#wraper #content #Hasan {
+	background-color: White;
+	height: 275px;
+	width: 1150px;
+}

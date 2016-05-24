@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wraper {
+	background-color: olive;
+	height:500px;
+	width: 1150px;
+	margin-right: 150px;
+	margin-left: 90px;
+	opacity:30%;
+}
+#wraper #header {
+	background-color: White;
+	height: 80px;
+	width: 1150px;
+	color:Olive;
+	font-size:46px;
+	text-align:center;
+}
+#wraper #content {
+	background-color: Olive;
+	height:500px;
+	width: 1150px;
+}
+#wraper #footer {
+	background-color: Olive;
+	opacity:0.8;
+	text-align:center;
+	color:White;
+	font-size:36px;
+	height: 70px;
+	width: 1150px;
+}
+#wraper #content #city {
+	background-color:olive;
+	height: 320px;
+	width: 1150px;
+	margin-bottom: 50px;
+	color:White;
+	font-size:36px;
+}
+#wraper #content #class {
+	background-color: black;
+	height: 200px;
+	width: 1150px;
+	margin-bottom: 50px;
+	color:Black;
+	font-size:36px;
+}
+#wraper #content #class table tr td form input {
+	width: 150px;
+	height: 30px;
+	font-size: 18px;
+	float: left;
+}
+#wraper #content #range {
+	background-color: Olive;
+	height: 200px;
+	width: 1150px;
+	margin-bottom:50px;
+}#wraper #content #city table tr td form input {
+	width: 150px;
+	height:30px;
+	font-size:18px;
+}
+#content #footer {
+	text-align: center;
+	height: 30px;
+	margin-top: 180px;
+}
+#content #city table tr td form p label {
+	text-align: center;
+}
+#content #city table tr td form p label {
+	text-align: right;
+}
+#content #city table tr td form p label {
+	text-align: justify;
+}
+.selectbox {
+	color: #FFF;
+	background-color:#66F;
+	height: 30px;
+}
+#content #city table tr td form p {
+	color: #09F;
+.searchallbutton {
+	background-color: #09F;
+	float: right;
+	height: 200px;
+	width: 300px;
+}
+
+.formbuttons {
+	background-color:#06C;
+	height: 100px;
+	width: 150px;
+	float:right;
+
+	
+}

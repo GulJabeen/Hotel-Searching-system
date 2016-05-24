@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search</title>
+<link href="search.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id = "wraper" align="center">
+<div id = "header">Hotel<sub>Reservation</sub>System</div>
+<div id = "header_Menu">
+<table width="1150" height="200">
+
+<tr>
+<td align="center"><div id = "header_Menu_a"><a href="index.html"><img src="home.png" width="100" height="100" title="Home"/></a></div></td>
+<td align="center"><div id = "header_Menu_b"><a href="Login.php"><img src="AboutUs.jpg".jpg".jpg" width="100" height="100" title="About US"/></a></div></td>
+<td align="center"><div id = "header_Menu_c"><a href="search.html"><img src="search.jpg" width="80" height="80" title="Search"/></div></td>
+<td align="center"><div id = "header_Menu_d">
+<a  href="contactus.html" ><img src="contactus.jpg" width="100" height="100" title="Contact Us"/></div>
+</tr>
+</table>
+</div>
+<div id = "content">
+<div id = "city">
+<table height="291" width="1150" align="center">
+<tr><td width="496" height="285" align=" center"  bgcolor="#333333">
+<form  action="filterpagehotel.php" method="post">
+  <p>
+    <label>Select Your City &nbsp; &nbsp;</label>
+    <select name = "city" class="selectbox"  >
+     <option value="dont select"></option>
+      <option value="Islamabad">Islamabad/Rwalpindi</option>
+      <option value="Karachi">Karachi</option>
+      <option value="Lahore">Lahore</option>
+      <option value="Quetta">Quetta</option>
+  </select>
+  </p>
+  <p>Select Class   <a name = "class1" id="class1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name = "classcheck" class="selectbox">
+    <option value="dont select"></option>
+      <option value="elite">Elite</option>
+      <option value="average">Average</option>
+      <option value="low">Low</option>
+    </select>
+  </a></p>
+  <p> Select By rating <a name = "class1" id="class2">
+    &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    <select name = "classrating" class="selectbox">
+      <option value="dont select"></option>
+      <option value="3">3</option>
+       <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+  </a><br>
+  <br>
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+       
+       
+    <a href="#class1">
+     <input type="submit" class="selectbox" value="Go" />
+</a></p>
+  <p>&nbsp;</p>
+  <p>
+    <input name="buttonsearchall" type="submit" class="formbuttons"  value="SearchALL" />
+  </p>
+</form>
+</td></tr>
+</table>
+</div>
+<!--
+<div id = "class">
+<table height="500" width="1150" align="center">
+<tr><td valign="middle" align="center"><form>
+  <a name = "class1">
+<label>Select Class:</label>
+<select name = "class">
+<option value="e">Elite</option>
+<option value="a">Average</option>
+<option value="l">Low</option>
+</select>
+</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input type="submit" value="Next" />
+</form>
+</td></tr>
+</table>
+</div>
+<div id = "range"></div>
+</div> -->
+<div id = "footer">
+All &copy;Copy Rights Reserved
+</div>
+</div>
+</body>
+</html>

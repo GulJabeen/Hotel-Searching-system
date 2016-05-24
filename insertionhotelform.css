@@ -1,0 +1,60 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+
+#wraper {
+	background-color: olive;
+	height:950px;
+	width: 1150px;
+	margin-right: 150px;
+	margin-left: 90px;
+	opacity:30%;
+}
+#wraper #header {
+	
+	background-color: White;
+	height: 60px;
+	width: 1150px;
+	color:Olive;
+	font-size:46px;
+	text-align:center;
+}
+
+#wraper #form
+{
+	width:1150;
+	height:200;
+	background-color:#333333;	text-align:left;
+}
+#wraper #footer {
+	
+	background-color: Olive;
+	opacity:0.8;
+	text-align:center;
+	color:White;
+	font-size:36px;
+	height: 30px;
+	width: 1150px;
+
+}
+.labelinsert {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	color:
+	#FFF;
+	
+}
+.textfieldinsertform {
+	background-color: #09F;
+	
+}
+.BUTTONinsert {
+	background-color: #09F;
+	float: left;
+	widows:200px;
+	height:60px;
+	margin-left:400px;
+}
+.insertfield {
+color: #FFF;
+}
